@@ -50,7 +50,6 @@ header {
 
 main {
   padding: 4rem;
-  // height: 100%;
   min-height: calc(100vh - 60px);
 
   .icons {
@@ -79,7 +78,7 @@ main {
   grid-gap: 30px;
   grid-template-areas:
     "bioimage bio bio"
-    "job1 job2 job3";
+    "bioHD bioML bioMG";
   grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
@@ -95,15 +94,15 @@ main {
   }
 
   .bio-HD {
-    grid-area: job1;
+    grid-area: bioHD;
   }
 
   .bio-ML {
-    grid-area: job2;
+    grid-area: bioML;
   }
 
   .bio-MG {
-    grid-area: job3;
+    grid-area: bioMG;
   }
 
   .about {
